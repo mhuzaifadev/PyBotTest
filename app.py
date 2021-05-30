@@ -12,7 +12,7 @@ ebot = ActivityBot()
 
 #https://docs.microsoft.com/en-us/javascript/api/botbuilder/botframeworkadapter?view=botbuilder-ts-latest
 # Microsoft App ID and Microsoft App Password     "33787288-ec92-4419-b42c-363e012629bb","af6dd3ef-d22b-46e2-bbe5-4e1cd038f61c"
-botadaptersettings = BotFrameworkAdapterSettings("33787288-ec92-4419-b42c-363e012629bb","af6dd3ef-d22b-46e2-bbe5-4e1cd038f61c")
+botadaptersettings = BotFrameworkAdapterSettings("33787288-ec92-4419-b42c-363e012629bb","440799d2-c828-40ac-9237-a5f2c543bca2")
 botadapter = BotFrameworkAdapter(botadaptersettings)
 
 @app.route("/api/messages",methods=["POST"])
