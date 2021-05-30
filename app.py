@@ -31,4 +31,4 @@ def messages():
     loop.run_until_complete(task)
 
 if __name__ == '__main__':
-    app.run('localhost',3978)
+    app.run()
