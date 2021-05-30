@@ -10,6 +10,8 @@ loop = asyncio.get_event_loop()
 
 ebot = ActivityBot()
 
+#https://docs.microsoft.com/en-us/javascript/api/botbuilder/botframeworkadapter?view=botbuilder-ts-latest
+# Microsoft App ID and Microsoft App Password
 botadaptersettings = BotFrameworkAdapterSettings("","")
 botadapter = BotFrameworkAdapter(botadaptersettings)
 
