@@ -1,0 +1,4 @@
+flask
+botbuilder.schema
+botbuilder.core
+nltk
