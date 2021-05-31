@@ -2,3 +2,5 @@ flask
 botbuilder.schema
 botbuilder.core
 nltk
+botbuilder-integration-aiohttp
+botbuilder-dialogs
