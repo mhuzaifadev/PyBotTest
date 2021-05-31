@@ -16,8 +16,6 @@ class ActivityBot(ActivityHandler):
             chat = Chat(self.pairs)
             print(type(turn_context.activity.text))
             await turn_context.send_activity(chat.respond(turn_context.activity.text))
-        
-        async def on_members_added_activity(self, members_added: ChannelAccount, turn_context: TurnContext):
-            for member in members_added:
-                if member.id != turn_context.activity.recipient.id:
-                    await turn_context.send_activity("Hello and welcome!")
+        async def on_members_added_activity(self,member_added : ChannelAccount,turn_context:TurnContext):
+            for member in member_added:
+                await turn_context.send_activity(member.name)  
